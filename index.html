@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>API IndexedDB</title>
+</head>
+<body>
+
+    <section>
+        <form action="" id="form">
+            <label for="task">Tarea</label>
+            <input type="text" name="task">
+            <select name="priority">
+                <option value="low">Low</option>
+                <option value="normal">Normal</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit" name="button" data-action="add">Agregar Tarea</button>
+        </form>
+    </section>
+
+    <div id="task" class="task"></div>
+    <script src="script.js"></script>
+</body>
+</html>
